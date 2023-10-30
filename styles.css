@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+
+/* font-family: 'Bebas Neue', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 { 
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+#slider {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.slider-frame {
+    width: 300px;
+    height: auto;
+    overflow: hidden; 
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%; 
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
+
+#shop {
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+}
+
+#sizeList {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    background-color: white; 
+    height: 100%;
+    font-family: 'Bebas Neue', sans-serif; 
+    color: black;    
+    
+}
+
+.barra ul li {
+    list-style: none;
+    display: inline-block;;
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif; ;
+}
+
+h2 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif; ;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    height: 100%;
+    width: 100% ;
+    background-color:#000000;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}   
+
+label {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+input {
+    display: block;
+    margin: 0.5rem ; 
+}
+
+.get {
+    display: inline-block;
+    margin-right: 380px; 
+}
+
+footer {
+    color: white;
+    height: 5px;
+    font-family: 'Bebas Neue', sans-serif; 
+    color: black;
+}
