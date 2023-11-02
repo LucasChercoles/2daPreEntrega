@@ -4,40 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spartans</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <!-- Esta pagina seria el 'about me' pero mientras estaba desarrollando las anteriores misma se me ocurrio que seria mejor que una en donde se esxplique las politcas de devolucion -->
     <header>
-        <marquee behavior="" direction="right">/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/</marquee>
-    </header>
-    <main>
-        <img id='logo' src="/multimedia/Imagenes/logo .jpg" alt="logo">
-        <h1>SPARTANS-SHOP</h1>
-        <nav class="barra">
-            <ul>
-                <li><a href="../index.html">Home</a></li> 
-                <li><a href="/pages/shop.html">Shop</a></li>
-                <li><a href="/pages/size list .html">Size List</a></li>
-                <li><a href="/pages/community.html">Community</a></li>
-                <li><a href="/pages/salesReturns.html">Sales Returns</a></li>
+        <nav class="navbar navbar-dark bg-dark ">
+            <div class="container-fluid">
+            <img class="logo" src="/multimedia/Imagenes/logo.jpg" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-white bg-black" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/pages/bestsellers!.html">Bestsellers!</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/pages/otherProducts.html">Other Products</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="/pages/salesReturns.html">Sales Returns</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/pages/community.html">Community</a>
+                </li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="banner">
+        <div class="capa"><h1>Spartans</h1></div>
+    </div>
+</main>
+    <div class="salesRetuns text-white">
         <h2>Sales Returns</h2>
-        <p><strong>About our products:</strong></p>
-        <p>The images that show the product are illustrative. These are digital so that the client can observe the design in a cleaner way.</p>
-        <p><strong>Spartans-Shop Return Policy:</strong></p>                            
-        <p>At Spartans we only accept valid claims that have to do with a manufacturing and/or stamping defect. </p>
-        <p><strong>Shipping and delay time:</strong></p>
-        <p>We provide the tracking code once the product is shipped.<p>
-        <p>The delay varies depending on the type of purchase being made. If the product is in stock, the order will be shipped as soon as possible. On the other hand, the delay time in a pre-sale will be notified at the time of purchase.</p>
-        <p>If you purchase a pre-sale, keep in mind that it takes longer than a regular stock purchase. This delay appears since you are purchasing a garment that is not yet available in stock.</p>
-        <p><strong>Outlet:</strong></p>
-        <p>All products that belong to the outlet category have a discounted price because they have a manufacturing defect. In this case, the product does not have a fault in the sewing and construction of the garment. It only has one flaw in the stamping, including poor positioning of the stamp, non-legible texts, among others.</p>
-        <p>The garment selected in the outlet category cannot be returned. Please note that purchasing in this category you will receive a garment that has no manufacturing errors, only printing errors. And it will be taken randomly among the flaws in the design and size that I select.</p>
-    </main>
-    <footer>
-        <marquee behavior="" direction="right">/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/COMMIN SOON!/</marquee>
+            <p><strong>About our products:</strong></p>
+            <p>The images that show the product are illustrative. These are digital so that the client can observe the design in a cleaner way.</p>
+            <p><strong>Spartans-Shop Return Policy:</strong></p>                            
+            <p>At Spartans we only accept valid claims that have to do with a manufacturing and/or stamping defect. </p>
+            <p><strong>Shipping and delay time:</strong></p>
+            <p>We provide the tracking code once the product is shipped.<p>
+            <p>The delay varies depending on the type of purchase being made. If the product is in stock, the order will be shipped as soon as possible. On the other hand, the delay time in a pre-sale will be notified at the time of purchase.</p>
+            <p>If you purchase a pre-sale, keep in mind that it takes longer than a regular stock purchase. This delay appears since you are purchasing a garment that is not yet available in stock.</p>
+            <p><strong>Outlet:</strong></p>
+            <p>All products that belong to the outlet category have a discounted price because they have a manufacturing defect. In this case, the product does not have a fault in the sewing and construction of the garment. It only has one flaw in the stamping, including poor positioning of the stamp, non-legible texts, among others.</p>
+            <p>The garment selected in the outlet category cannot be returned. Please note that purchasing in this category you will receive a garment that has no manufacturing errors, only printing errors. And it will be taken randomly among the flaws in the design and size that I select.</p>
+    </div>
+        <footer>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
